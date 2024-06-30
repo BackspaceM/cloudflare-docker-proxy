@@ -15,6 +15,7 @@ name = "cloudflare-docker-proxy"
    { pattern = "k8s.laotie666.link", custom_domain = true },
    { pattern = "ghcr.laotie666.link", custom_domain = true },
    { pattern = "cloudsmith.laotie666.link", custom_domain = true },
+   { pattern = "ecr.laotie666.link", custom_domain = true }
  ]
 
 [env.production.vars]
