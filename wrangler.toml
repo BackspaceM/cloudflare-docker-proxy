@@ -9,13 +9,13 @@ local_protocol = "http"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "quay.laotie666.link", custom_domain = true },
-   { pattern = "gcr.laotie666.link", custom_domain = true },
-   { pattern = "k8s-gcr.laotie666.link", custom_domain = true },
-   { pattern = "k8s.laotie666.link", custom_domain = true },
-   { pattern = "ghcr.laotie666.link", custom_domain = true },
-   { pattern = "cloudsmith.laotie666.link", custom_domain = true },
-   { pattern = "ecr.laotie666.link", custom_domain = true }
+   { pattern = "quay.liuweiran.top", custom_domain = true },
+   { pattern = "gcr.liuweiran.top", custom_domain = true },
+   { pattern = "k8s-gcr.liuweiran.top", custom_domain = true },
+   { pattern = "k8s.liuweiran.top", custom_domain = true },
+   { pattern = "ghcr.liuweiran.top", custom_domain = true },
+   { pattern = "cloudsmith.liuweiran.top", custom_domain = true },
+   { pattern = "ecr.liuweiran.top", custom_domain = true }
  ]
 
 [env.production.vars]
