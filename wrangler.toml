@@ -16,15 +16,15 @@ CUSTOM_DOMAIN = "liuweiran.top"
 
 [env.production]
 name = "cloudflare-docker-proxy"
- routes = [
-   { pattern = "docker.liuweiran.top", custom_domain = true },
-   { pattern = "quay.liuweiran.top", custom_domain = true },
-   { pattern = "gcr.liuweiran.top", custom_domain = true },
-   { pattern = "k8s-gcr.liuweiran.top", custom_domain = true },
-   { pattern = "k8s.liuweiran.top", custom_domain = true },
-   { pattern = "ghcr.liuweiran.top", custom_domain = true },
-   { pattern = "cloudsmith.liuweiran.top", custom_domain = true },
- ]
+# routes = [
+#   { pattern = "docker.liuweiran.top", custom_domain = true },
+#   { pattern = "quay.liuweiran.top", custom_domain = true },
+#   { pattern = "gcr.liuweiran.top", custom_domain = true },
+#   { pattern = "k8s-gcr.liuweiran.top", custom_domain = true },
+#   { pattern = "k8s.liuweiran.top", custom_domain = true },
+#   { pattern = "ghcr.liuweiran.top", custom_domain = true },
+#   { pattern = "cloudsmith.liuweiran.top", custom_domain = true },
+# ]
 
 [env.production.vars]
 MODE = "production"
